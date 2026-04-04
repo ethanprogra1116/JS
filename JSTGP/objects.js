@@ -4,3 +4,9 @@
 
 // En el caso de number, string y boolean hay objetos Number, String y Boolean que son sus analogos objetos que
 // les permiten acceder a propiedades y métodos adicionales.
+
+// Object literals
+const obj = {
+  name: "Ethan",
+  edad: "20",
+};
