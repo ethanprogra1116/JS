@@ -6,7 +6,11 @@
 // les permiten acceder a propiedades y métodos adicionales.
 
 // Object literals
-const obj = {
+const object = {
   name: "Ethan",
   edad: "20",
 };
+
+for (const key in object) {
+  console.log(key, object[key]);
+}
