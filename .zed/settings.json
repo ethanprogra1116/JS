@@ -1,0 +1,16 @@
+{
+  "languages": {
+    "JavaScript": {
+      "language_servers": ["eslint", "vtsls"],
+    },
+    "TypeScript": {
+      "language_servers": ["vstsls"],
+    },
+    "HTML": {
+      "language_servers": [
+        "emmet-language-server",
+        "vscode-html-language-server",
+      ],
+    },
+  },
+}
