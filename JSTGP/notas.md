@@ -30,3 +30,12 @@ console.log(obj.x); // 99 — SÍ se ve afuera
 
 - El prototipo Function tiene la propiedad name que es el nombre de la funcion. Function.prototype.name
 - Una propiedad de un objeto se puede borrar con `delete` Solo aplica al objeto aplicado. No a la prototype chain
+
+## Functions
+- Las funciones estan linkeadas a Function.prototype que a su vez esta linkeado a Object
+- Ademas cada funcion tiene la propiedad prototype. Es un objeto con un constructor cuyo valor es la funcion misma.
+- Como objetos pueden ser asignadas a variables, pasadas como parametros o retornadas por otras funciones. Son un objeto de primera clase
+- Una funcion tiene acceso a las variables internas y externas en su co
+- This cambia segun las 4 formas en las que podemos importar una funcion
+- Si una funcion llamada con new retorna un objeto la variable retornada es el objeto retornado explicitamente, no this. Cualquier primitivo retornado se desacarta, se retorna this por defecto.
+-
